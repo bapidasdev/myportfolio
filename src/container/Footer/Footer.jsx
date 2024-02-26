@@ -75,6 +75,10 @@ const Footer = () => {
           </h3>
         </div>
       )}
+       <div className="copyright">
+            <p className="p-text">@2024 Bapi das</p>
+            <p className="p-text">All rights reserved</p>
+          </div>
     </>
 
   )

@@ -17,8 +17,6 @@ const brandss = [
   { name: 'Sarha', company: "google", feedback:"Bapi is an awesome devloper", imgUrl: images.about01  },
   { name: 'jone', company: "facebook", feedback:"Great job, would recommend", imgUrl: images.about02 },
   { name: 'Michael', company: "TCS", feedback:"Bapi has great exprence", imgUrl: images.about02 },
-
-
 ]
 
 const Testimonial = () => {
@@ -34,7 +32,7 @@ const Testimonial = () => {
     {testimonialss.length && (
       <>
         <div className="app__testimonial-item app__flex">
-           <img src={testimonials.imgUrl} alt={testimonialss.name} /><p>img</p>
+           <img src={testimonialss[currentIndex].imgUrl} alt={testimonialss.name} />
           <div className="app__testimonial-content">
             <p className="p-text">{testimonialss[currentIndex].feedback}</p>
             <div>
