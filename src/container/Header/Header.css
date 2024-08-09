@@ -1,6 +1,7 @@
 #home {
     position: relative;
     background: url(../../assets/bgIMG.png);
+    /* background: no-repeat; */
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
@@ -207,4 +208,8 @@
     }
 }
 
-
+.socialMedia{
+    position: fixed;
+    top: 75%;
+    left: 0;
+}

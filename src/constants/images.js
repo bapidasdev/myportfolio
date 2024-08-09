@@ -23,6 +23,10 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
+import webD from '../assets/webD.jpg';
+import frontD from '../assets/frontD.webp';
+import reactD from '../assets/reactD.webp'
+
 import profile from '../assets/profile.png';
 import profile2 from '../assets/profile2.jpg'
 import profile20 from '../assets/profile20.png'
@@ -84,4 +88,8 @@ export default {
   nb,
   skype,
   spotify,
+
+  webD,
+  frontD,
+  reactD,
 };

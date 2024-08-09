@@ -8,9 +8,9 @@ import {images} from '../../constants'
 import {AppWrap, MotionWrap} from '../../wrapper'
 
 const abouts = [
-  {title: 'web Development', description: 'I am a good web devloper', imgUrl:images.about01},
-  {title: 'Forntend Development', description: 'I am a good Forntend Development', imgUrl:images.about02},
-  {title: 'React Development', description: 'I am a good React Development',imgUrl:images.about03},
+  {title: 'web Development', description: 'I am a good web devloper', imgUrl:images.webD},
+  {title: 'Forntend Development', description: 'I am a good Forntend Development', imgUrl:images.frontD},
+  {title: 'React Development', description: 'I am a good React Development',imgUrl:images.reactD},
   {title: 'Content Creater', description: 'I am a good Content Creater', imgUrl:images.about04},
 
 ]

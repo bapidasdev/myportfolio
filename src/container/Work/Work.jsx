@@ -45,6 +45,8 @@ const Work = () => {
       }
     }, 500);
   };
+
+  
   return (
     <>
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>

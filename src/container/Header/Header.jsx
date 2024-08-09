@@ -4,15 +4,16 @@ import './Header.css'
 import { motion } from 'framer-motion';
 import { images } from '../../constants';
 
-import {AppWrap} from '../../wrapper';
+import { AppWrap } from '../../wrapper';
+import { SocialMedia } from '../../components'
 
 
 const scaleVariants = {
   whileInView: {
-    scale: [0,1],
-    opacity:[0,1],
+    scale: [0, 1],
+    opacity: [0, 1],
     transition: {
-      duration:1,
+      duration: 1,
       ease: 'easeInOut'
     }
   }
@@ -59,19 +60,23 @@ const Header = () => {
 
 
       <motion.div
-       variants={scaleVariants}
-       whileInView={scaleVariants.whileInView}
-       className='app__header-circles'
+        variants={scaleVariants}
+        whileInView={scaleVariants.whileInView}
+        className='app__header-circles'
       >
         {/* flutter, redux, sass */}
-        {[images.react, images.javascript,  images.css].map((circle,index) => (
+        {[images.react, images.javascript, images.css].map((circle, index) => (
           <div className='circle-cmp app__flex' key={`circle-${index}`}>
             <img src={circle} alt="circle" />
 
           </div>
         ))}
       </motion.div>
+      <div className="socialMedia">
+        <SocialMedia />
+      </div>
     </div>
+
   )
 }
 
