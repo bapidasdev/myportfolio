@@ -38,7 +38,7 @@
     }
 
     .app__navbar-logo a {
-        display: none;
+        /* display: none; */
     }
 }
 
@@ -112,6 +112,8 @@
     justify-content: center;
     align-items: center;
     background: var(--secondary-color);
+   
+    margin-right: 20px;
 
     svg {
         width: 70%;
@@ -136,7 +138,6 @@
         background-color: var(--white-color);
         background-size: cover;
         background-repeat: repeat;
-
         box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
 
 
@@ -145,6 +146,8 @@
             height: 5%;
             color: var(--secondary-color);
             margin: 0.5rem 1rem;
+
+            margin-right: 40px;
         }
 
         ul {

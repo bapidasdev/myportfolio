@@ -1,18 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
-// import { urlFor, client } from '../../Client'
-import { images } from '../../constants'
 import { AppWrap, MotionWrap } from '../../wrapper';
 import './Work.css';
+import data from '../../data';
 
 
-const worksArr = [
-  { title: 'web Development', description: 'I am a good web devloper', tag:"React Project", imgUrl: images.about01 },
-  { title: 'Forntend Development', description: 'I am a good Forntend Development', tag:"javascript project", imgUrl: images.about02 },
-  { title: 'React Development', description: 'I am a good React Development', tag:"html & css & javascript project", imgUrl: images.about03 },
-
-]
 
 const Work = () => {
 
@@ -46,7 +39,8 @@ const Work = () => {
     }, 500);
   };
 
-  
+
+
   return (
     <>
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
@@ -67,7 +61,7 @@ const Work = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        {worksArr.map((work, index) => (
+        {data.worksArr.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div
               className="app__work-img app__flex"
@@ -101,15 +95,17 @@ const Work = () => {
                   </motion.div>
                 </a>
               </motion.div>
+
+
             </div>
 
             <div className="app__work-content app__flex">
-              <h4 className="bold-text">{work.title}</h4>
+              <h4 className="bold-text">{work.title} </h4>
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
 
 
               <div className="app__work-tag app__flex">
-                <p className="p-text">{work.tag}</p> 
+                <p className="p-text">{work.tag}</p>
               </div>
 
             </div>

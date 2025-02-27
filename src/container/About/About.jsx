@@ -1,19 +1,11 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import './About.css';
 
 import { motion, } from 'framer-motion';
-import {images} from '../../constants'
-// import {urlFor, client} from '../../Client'
 
-import {AppWrap, MotionWrap} from '../../wrapper'
+import data from '../../data';
+import { AppWrap, MotionWrap } from '../../wrapper'
 
-const abouts = [
-  {title: 'web Development', description: 'I am a good web devloper', imgUrl:images.webD},
-  {title: 'Forntend Development', description: 'I am a good Forntend Development', imgUrl:images.frontD},
-  {title: 'React Development', description: 'I am a good React Development',imgUrl:images.reactD},
-  {title: 'Content Creater', description: 'I am a good Content Creater', imgUrl:images.about04},
-
-]
 
 const About = () => {
   // const [abouts, setAbouts] = useState([]);
@@ -29,10 +21,10 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">I Know that <span>Good Development</span> <br /> means <span>Good Business</span></h2> 
+      <h2 className="head-text">I Know that <span>Good Development</span> <br /> means <span>Good Business</span></h2>
 
       <div className="app__profiles">
-        {abouts.map((about, index) => (
+        {data.abouts.map((about, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
@@ -58,4 +50,4 @@ export default AppWrap(
 );
 
 
- 
+

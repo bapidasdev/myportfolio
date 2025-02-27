@@ -73,12 +73,13 @@
 }
 
 .app__footer-form {
-    width: 60%;
+    width: 100%;
     flex-direction: column;
     margin: 1rem 2rem;
+    padding: 10px;
 }
 
-.app__footer-form div {
+.app__footer-form .app__flex {
     width: 100%;
 
     margin: 0.75rem 0;

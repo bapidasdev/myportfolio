@@ -46,6 +46,15 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
+import work01 from '../assets/work01.png';
+import work02 from '../assets/work02.png';
+// import work03 from '../assets/work03.png';
+import ticGame from "../assets/tic-game.png";
+import eCommerce from "../assets/e-commerce.png";
+import crudApp from "../assets/crud_app.png";
+import login_register from "../assets/login_register_web.png"
+import job_portal from "../assets/job.png"
+
 export default {
   email,
   mobile,
@@ -92,4 +101,12 @@ export default {
   webD,
   frontD,
   reactD,
+
+  work01,
+  work02,
+  ticGame,
+  eCommerce,
+  crudApp,
+  login_register,
+  job_portal,
 };

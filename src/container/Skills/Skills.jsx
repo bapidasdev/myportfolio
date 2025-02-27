@@ -1,48 +1,33 @@
 import React, { useState, useEffect } from 'react'
 import './Skills.css'
 import { motion } from 'framer-motion';
-import ReactTooltip from 'react-tooltip'
-import { images } from '../../constants'
+// import ReactTooltip from 'react-tooltip'
+// import { images } from '../../constants'
 import { AppWrap, MotionWrap } from '../../wrapper';
+import data from '../../data';
 
-const skills = [
-  { name: 'HTML', imgUrl: images.html },
-  { name: 'CSS', imgUrl: images.css },
-  { name: 'Javascript', imgUrl: images.javascript },
-  { name: 'React', imgUrl: images.react },
-  { name: 'Redux', imgUrl: images.redux },
-  { name: 'Github', imgUrl: images.git },
-  { name: 'Sass', imgUrl: images.sass },
-  { name: 'Python', imgUrl: images.python },
-  
+// const skills = [
+//   { name: 'HTML', imgUrl: images.html },
+//   { name: 'CSS', imgUrl: images.css },
+//   { name: 'Javascript', imgUrl: images.javascript },
+//   { name: 'React', imgUrl: images.react },
+//   { name: 'Redux', imgUrl: images.redux },
+//   { name: 'Github', imgUrl: images.git },
+//   {name: 'Material Ui', imgUrl:images.mu5}
 
-]
+// ]
 
-const experiences = [
-  { year: "2022" ,
-},
-
-  { year: "2023",
-  
-},
-]
-
-const workss = [
-  { name: 'Fronted Devloper', company: "google", desc: "I'v work as a fronted devloper" },
-  { name: 'web Development', company: "google", desc: "" },
-
-]
 
 const Skills = () => {
   // const [experiences, setExperiences] = useState([]);
   // const [skills, setSkills] = useState([]);
   return (
     <>
-      <h2 className="head-text">Skills & Experiences</h2>
+      <h2 className="head-text"> MY Skills </h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
-          {skills.map((skill) => (
+          {data.skills.map((skill) => (
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
@@ -61,7 +46,7 @@ const Skills = () => {
         </motion.div>
 
         {/* ----------experiences----------------experiences---------------- */}
-        <div className="app__skills-exp">
+        {/* <div className="app__skills-exp">
         {experiences.map((experience) => (
           <motion.div
             className="app__skills-exp-item"
@@ -71,7 +56,6 @@ const Skills = () => {
               <p className="bold-text">{experience.year}</p>
             </div>
 
-            {/* ---------------- */}
             <motion.div className="app__skills-exp-works">
               {workss.map((work) => (
                 <>
@@ -86,20 +70,12 @@ const Skills = () => {
                     <h4 className="bold-text">{work.name}</h4>
                     <p className="p-text">{work.company}</p>
                   </motion.div>
-                  {/* <ReactTooltip
-                      id={work.name}
-                      effect="solid"
-                      arrowColor="#fff"
-                      className="skills-tooltip"
-                    >
-                      {work.desc}
-                    </ReactTooltip> */}
                 </>
               ))}
             </motion.div>
           </motion.div>
         ))}
-      </div>
+      </div> */}
 
       </div>
   

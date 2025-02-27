@@ -12,8 +12,7 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-         <img src={images.email} alt="email" /> 
-        <a href="das316456@gmail.com" className="p-text">das316456@gmail.com</a>
+        <a href="mailto:das316456@gmail.com" className="p-text"><img src={images.email} alt="email" /></a>
 
       </div>
       <ul className='app__navbar-links'>
@@ -24,7 +23,6 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
 
 
       <div className='app__nabvar-menu'>
@@ -47,8 +45,8 @@ const Navbar = () => {
         )}
       </div>
       <div className='app__navbar-logo phone'>
-        <img src={images.mobile} alt="phone" />
-        <a href="+918670273082" className="p-text">+918670273082</a>
+       
+        <a href="tel:8670273082" className="p-text"><img src={images.mobile} alt="+918670273082" /></a>
       </div>
 
     </nav>
