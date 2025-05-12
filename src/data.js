@@ -25,14 +25,7 @@ const abouts = [
 ]
 
 const worksArr = [
-    {
-        title: 'QR code generator',
-        description: 'Created a web-based QR code generator app using HTML, CSS Javascripit',
-        tag: "html & css & javascript project",
-        imgUrl: images.work01,
-        projectLink: "https://delightful-hummingbird-2ec860.netlify.app",
-        codeLink: "https://delightful-hummingbird-2ec860.netlify.app"
-    },
+  
     {
         title: 'LOGIN & REGISTER',
         description: 'Created a web-based LOGIN & REGISTER App  using React',
@@ -41,14 +34,7 @@ const worksArr = [
         projectLink: "https://bapidev-login-web.netlify.app",
         codeLink: "https://bapidev-login-web.netlify.app"
     },
-    {
-        title: 'TIC TAC TOE Game',
-        description: 'Created a web-based Tic-Tac-Toe game using HTML, CSS, and Javascript',
-        tag: "html & css & javascript project",
-        imgUrl: images.ticGame,
-        projectLink: "https://tic-tac-toc-game18.netlify.app/",
-        codeLink: "https://tic-tac-toc-game18.netlify.app/"
-    },
+    
      {
         title: 'E-commerce Website ',
         description: 'Created a web-based E-commerce app using React',
@@ -66,21 +52,31 @@ const worksArr = [
         codeLink: "https://crud-app18.netlify.app/"
     },
     
-    {
-        title: 'React Admin Dashboard',
-        description: 'I created a Admin dashboard using React',
-        tag: "React Project",
-        imgUrl: images.work02,
-        projectLink: "https://github.com/bapidasdev/AdminDashboard",
-        codeLink: "https://github.com/bapidasdev/AdminDashboard"
-    },
+   
     {
         title: 'JOB_PORTAL',
         description: 'I created a job portal website using React',
-        tag: "React Project",
+        tag: "full-stack Project",
         imgUrl: images.job_portal,
         projectLink: "https://job-portal-hzbh.onrender.com/",
         codeLink: "hhttps://github.com/bapidasdev/job__portal"
+    },
+
+    {
+        title: 'Chat_app',
+        description: 'I created a web-based Chat_application',
+        tag: "full-stack Project",
+        imgUrl: images.char_app,
+        projectLink: "https://github.com/bapidasdev/chat_app",
+        codeLink: "https://github.com/bapidasdev/chat_app"
+    },
+    {
+        title: 'School_management_system',
+        description: 'I created a web-based School_management_system application',
+        tag: "full-stack Project",
+        imgUrl: images.school,
+        projectLink: "https://dreamy-medovik-361558.netlify.app/",
+        codeLink: "https://github.com/bapidasdev/School-operations-app"
     },
 
 ]

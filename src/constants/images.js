@@ -54,6 +54,8 @@ import eCommerce from "../assets/e-commerce.png";
 import crudApp from "../assets/crud_app.png";
 import login_register from "../assets/login_register_web.png"
 import job_portal from "../assets/job.png"
+import char_app from "../assets/chat_app.png"
+import school from "../assets/school.png"
 
 export default {
   email,
@@ -109,4 +111,6 @@ export default {
   crudApp,
   login_register,
   job_portal,
+  char_app,
+  school
 };
